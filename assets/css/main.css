@@ -2435,6 +2435,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	.contactForm {
+		 max-width:420px; margin:50px auto; 
+	}
+
 /* Actions */
 
 	ul.actions {
