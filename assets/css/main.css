@@ -2440,10 +2440,6 @@ input, select, textarea {
 		margin:50px auto; 
 	}
 
-	.feedback-input{
-		max-width:420px; margin:50px auto;
-		}
-
 /* Actions */
 
 	ul.actions {
