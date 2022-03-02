@@ -72,8 +72,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/*****************************************************************test*/
-
 /* Basic */
 
 	html {
@@ -240,7 +238,6 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
 
 /* Container */
 
@@ -2438,12 +2435,6 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	.contactForm {
-		max-width:420px; margin:50px auto; 
-	}
-
-	
-
 /* Actions */
 
 	ul.actions {
@@ -3036,7 +3027,16 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-		
+			#header .actions:after {
+				background: #ffffff;
+				content: '';
+				height: 100vh;
+				left: 50%;
+				position: absolute;
+				top: 100%;
+				width: 1px;
+			}
+
 		#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
@@ -3510,10 +3510,3 @@ input, select, textarea {
 			}
 
 	}
-
-
-
-
-
-
-
