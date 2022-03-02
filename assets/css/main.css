@@ -2452,7 +2452,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 0;
+			padding: 0 0 0 1em;
 			vertical-align: middle;
 		}
 
