@@ -2436,8 +2436,13 @@ input, select, textarea {
 	}
 
 	.contactForm {
-		 max-width:420px; margin:50px auto; 
+		 max-width:420px; 
+		margin:50px auto; 
 	}
+
+	.feedback-input{
+		max-width:420px; margin:50px auto;
+		}
 
 /* Actions */
 
