@@ -3510,3 +3510,7 @@ input, select, textarea {
 			}
 
 	}
+
+form {
+	display: inline;
+}
