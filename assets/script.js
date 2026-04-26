@@ -7,6 +7,7 @@ if (year) {
 }
 
 // handle github showing filename in URL
-if (window.location.pathname.endsWith("/index.html")) {
-  window.history.replaceState(null, "", window.location.pathname.replace("/index.html", "/"));
+if (window.location.pathname.includes("index.html")) {
+  const cleanPath = window.location.pathname.replace(/index\.html$/, "");
+  window.history.replaceState(null, "", cleanPath || "/");
 }
